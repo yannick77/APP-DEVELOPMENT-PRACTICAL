@@ -12,13 +12,6 @@ background-: #bbb;
 	border-right: 5px solid brown;
 }
 
-
-/*.visible {
-     visibility: visible;
-  opacity: 1;
-  transition: opacity 2s linear;
-}*/
-
 .hidden {
   visibility: hidden;
   opacity: 0;
@@ -37,7 +30,6 @@ background-: #bbb;
 	background: brown;
 	margin: auto;
 }
-	
 .row{
 	width: 100%;
 	height: 150px;
@@ -65,7 +57,6 @@ background-: #bbb;
 .col:nth-child(3){
 	border-right: none;
 }
-
 .row:nth-child(1) .col{
 	border-top: none;
 	margin-top: 3px;
@@ -86,11 +77,10 @@ background-: #bbb;
 #board{
 	font-size: 30px;
 	font-family: times;
-	color: whitesmoke;
+	color: white;
 	margin-top: 10px;
 	padding-left: 15px
 }
-
 #members {
   overflow: hidden;
   font-style: times;
@@ -98,13 +88,10 @@ background-: #bbb;
   table-layout: center;
   margin-top: 10px;
   position: fixed;
-  
-
-  
 }
 #members > div {
   overflow: hidden;
-  }
+}
 #members > .visible {
   visibility: visible;
   background-color: brown;
@@ -120,8 +107,7 @@ background-: #bbb;
 #members > .hidden {
   visibility: hidden;
   opacity: 0;
-   
-   color:brown;
+  color:brown;
   -webkit-transition: visibility 0s 2s, opacity 5s linear;
   -moz-transition: visibility 0s 2s, opacity 5s linear;
   -o-transition: visibility 0s 2s, opacity 5s linear;
@@ -131,12 +117,10 @@ background-: #bbb;
   margin-top: 0px;
   padding: 15px;
   border: solid 1px white;
-  
   font-style: times;
   font-size: 15px;
   text-align: center;
-  
-}
+ }
 #members > .hidden > div {
   margin-top: -10000px;
   -webkit-transition: margin-top 0s 10s;
@@ -144,33 +128,28 @@ background-: #bbb;
   -o-transition: margin-top 0s 10s;
   transition: margin-top 0s 10s;
 }
-
-
 table, th, td {
     border: 1px 
     solid white;  
     padding-left: 12px;
     padding-right:12px;
     padding-right:10px;
-
 }
-
 tr:nth-child(even) {
     background-color: orange;
     opacity: 1;
 }
 button {
-	color:white;
-	font-family: times;
-	background-color: brown; 
-	-webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -o-transition: 0.4s;
+     color:white;
+     font-family: times;
+     background-color: brown; 
+     -webkit-transition: 0.4s;
+     -moz-transition: 0.4s;
+     -o-transition: 0.4s;
      transition: 0.4s;
 }
-
 button:hover{
-	color:brown;
-	font-family: times;
-	background-color: white; 
+      color:brown;
+      font-family: times;
+      background-color: white; 
 }
